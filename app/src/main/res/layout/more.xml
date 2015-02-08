@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:background="#ff00d4aa"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Islammics"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="false"
+            android:textColor="#FFFFFF" />
+
+        <ToggleButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/toggleButton2"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Updated Comics"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/linearLayout2" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/linearLayout3"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:id="@+id/imageView16"
+                android:src="@drawable/dummyuser"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
